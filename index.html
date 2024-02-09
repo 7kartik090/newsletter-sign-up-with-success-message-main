@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  <!-- Sign-up form start -->
+  <main>
 
-  Stay updated!
+    <!-- Sign-up form start -->
+    
+    <section>
+      <h1>Stay updated!</h1>
 
-  Join 60,000+ product managers receiving monthly updates on:
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+      <ul>
+        Product discovery and building what matters
+        Measuring to ensure updates are a success
+        And much more!
+      </ul>
 
-  Email address
-  email@company.com
+      <form>
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="email@company.com">
+        <button>Subscribe to monthly newsletter</button>
+      </form>
+    </section>
 
-  Subscribe to monthly newsletter
+    <!-- Sign-up form end -->
 
-  <!-- Sign-up form end -->
+    <!-- Success message start -->
 
-  <!-- Success message start -->
+    <section>
+      <h2>Thanks for subscribing!</h2>
 
-  Thanks for subscribing!
+      <p>A confirmation email has been sent to ash@loremcompany.com.
+        Please open it and click the button inside to confirm your subscription.</p>
 
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
+      <button>Dismiss message</button>
+    </section>
 
-  Dismiss message
+    <!-- Success message end -->
 
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </main>
 </body>
+
 </html>
