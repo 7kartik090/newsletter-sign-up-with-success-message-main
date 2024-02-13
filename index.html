@@ -4,51 +4,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon"
+    href="https://cdn-icons-png.freepik.com/512/5544/5544764.png?uid=R81723751&ga=GA1.1.708462286.1700640885&"
+    type="image/x-icon">
+  <title>Newslater</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./demo.js" defer></script>
 </head>
 
 <body>
+  <div class="main-div">
+    <div class="left">
+      <div class="left-h1">
+        <h1>Stay updated!</h1>
+      </div>
+      <div class="left-para">
+        <p>Join 60K+ product receiveing monthly updates on:</p>
+      </div>
+      <div class="left-point">
+        <ul>
+          <li><img src="./assets/images/icon-success.svg" alt="img">Product discovery and building what matters</li>
+          <li><img src="./assets/images/icon-success.svg" alt="img">Measuring to ensure updates are a success</li>
+          <li><img src="./assets/images/icon-success.svg" alt="img">And much more!</li>
+        </ul>
+      </div>
+      <div class="mail-form">
+        <form action="">
+          <div class="left-mail">
+            <label for="mail" id="mail-label" onclick="mouseinsidemail()">Email Address</label>
+            <input type="email" id="mail" onfocus="mouseinsidemail()" onfocusout="mouseoutsidemail()" placeholder="enter email address" required>
+          </div>
+          <div class="left-bttn">
+            <button type="submit">Subscribe to monthly newslater</button>
+          </div>
+        </form>
+      </div>
+    </div>
 
-  <main>
+    <div class="right">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" id="pic1">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" id="pic2">
+    </div>
+  </div>
 
-    <!-- Sign-up form start -->
-
-    <section>
-      <h1>Stay updated!</h1>
-
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
-
-      <ul>
-        Product discovery and building what matters
-        Measuring to ensure updates are a success
-        And much more!
-      </ul>
-
-      <form>
-        <label for="email">Email address</label>
-        <input type="email" id="email" name="email" placeholder="email@company.com">
-        <button>Subscribe to monthly newsletter</button>
-      </form>
-    </section>
-
-    <!-- Sign-up form end -->
-
-    <!-- Success message start -->
-
-    <section>
-      <h2>Thanks for subscribing!</h2>
-
-      <p>A confirmation email has been sent to ash@loremcompany.com.
-        Please open it and click the button inside to confirm your subscription.</p>
-
-      <button>Dismiss message</button>
-    </section>
-
-    <!-- Success message end -->
-
-  </main>
+  <!-- javascript -->
+  
 </body>
 
 </html>
